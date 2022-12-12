@@ -7,5 +7,6 @@ with open('data.txt') as com_file:
             # set breaks the string into individual unique characters
             # len counts the total unique characters in the string
             test = len(set(line[group:group+14])) 
-            # if the unique characters in the string == 4, print the answer, break the loop
+            # if the unique characters in the string == 14, print the answer, 
+            # break the loop
             if test == 14: print("The answer is "+str(group+14)); break
